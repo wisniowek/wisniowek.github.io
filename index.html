@@ -1,128 +1,521 @@
 <!DOCTYPE html>
-<html  >
-<head>
-  <!-- Site made with Mobirise Website Builder v5.8.6, https://mobirise.com -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v5.8.6, mobirise.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/wisniowek-logo-380x190.png" type="image/x-icon">
-  <meta name="description" content="">
-  
-  
-  <title>Home</title>
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/parallax/jarallax.css">
-  <link rel="stylesheet" href="assets/animatecss/animate.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Rodzinna Sprzedaż Maszyn | Prosty katalog ofert</title>
+    <meta
+      name="description"
+      content="Prosta, rodzinna strona do sprzedaży maszyn rolniczych z łatwym dodawaniem zdjęć, opisu i ceny."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Rodzinna Sprzedaż Maszyn">
+          <span class="brand-mark">RS</span>
+          <span class="brand-copy">
+            <strong>Rodzinna Sprzedaż Maszyn</strong>
+            <small>Prosto dla Ciebie i Twojego taty</small>
+          </span>
+        </a>
 
-  
-  
-  
-</head>
-<body>
-  
-  <section data-bs-version="5.1" class="menu cid-s48OLK6784" once="menu" id="menu1-h">
-    
-    <nav class="navbar navbar-dropdown navbar-fixed-top collapsed">
-        <div class="container-fluid">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <a href="index.html#top">
-                        <img src="assets/images/wisniowek-logo-380x190.png" alt="Mobirise Website Builder" style="height: 6.1rem;">
-                    </a>
-                </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="https://mobiri.se">LKI</a></span>
+        <nav class="main-nav" aria-label="Nawigacja główna">
+          <a href="#oferta">Oferta</a>
+          <a href="#dodaj-maszyne">Dodaj ofertę</a>
+          <a href="#dlaczego-my">Dlaczego to proste</a>
+          <a href="#proces">Jak korzystać</a>
+          <a href="#kontakt">Kontakt</a>
+        </nav>
+
+        <a class="header-cta" href="#dodaj-maszyne">Dodaj ofertę</a>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Rodzinna sprzedaż maszyn</p>
+            <h1>
+              Prosta strona, na której Ty i Twój tata możecie dodawać maszyny
+              bez stresu.
+            </h1>
+            <p class="hero-text">
+              Na start najważniejsze są prostota i czytelność. Wrzucacie zdjęcie,
+              wpisujecie krótki opis, cenę i podstawowe dane, a oferta od razu
+              pojawia się w katalogu gotowym do pokazania klientowi.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#oferta">Zobacz oferty</a>
+              <a class="button button-secondary" href="#dodaj-maszyne"
+                >Dodaj ogłoszenie</a
+              >
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+
+            <ul class="hero-points" aria-label="Najważniejsze zalety">
+              <li>Jeden prosty formularz do dodania maszyny</li>
+              <li>Zdjęcie, opis i cena w kilku krótkich krokach</li>
+              <li>Wygodna obsługa na telefonie, tablecie i komputerze</li>
+            </ul>
+          </div>
+
+          <aside class="hero-panel" aria-label="Wyróżniona maszyna">
+            <div class="panel-top">
+              <span class="status-pill">Oferta na start</span>
+              <span class="inventory-pill" id="inventoryCount">12 maszyn</span>
+            </div>
+
+            <div class="featured-card">
+              <div class="featured-media">
+                <img
+                  id="featuredImage"
+                  src=""
+                  alt="Zdjęcie wyróżnionej maszyny"
+                />
+              </div>
+              <p class="featured-label">Wyróżniona maszyna</p>
+              <h2 id="featuredName">John Deere 6155M</h2>
+              <p id="featuredDescription">
+                Komfortowy ciągnik do pracy całorocznej, gotowy do pokazów i
+                jazdy próbnej.
+              </p>
+
+              <dl class="featured-specs">
+                <div>
+                  <dt>Moc</dt>
+                  <dd id="featuredPower">155 KM</dd>
                 </div>
+                <div>
+                  <dt>Rok</dt>
+                  <dd id="featuredYear">2021</dd>
+                </div>
+                <div>
+                  <dt>Przebieg</dt>
+                  <dd id="featuredHours">2 140 mth</dd>
+                </div>
+              </dl>
+
+              <div class="featured-price-row">
+                <strong id="featuredPrice">349 000 PLN</strong>
+                <button class="button button-tertiary" id="featuredInquiry">
+                  Zapytaj o tę maszynę
+                </button>
+              </div>
+            </div>
+          </aside>
+        </section>
+
+        <section class="stats-strip" aria-label="Atuty firmy">
+          <article>
+            <strong id="statsInventoryCount">12</strong>
+            <span>aktywnych ofert w katalogu</span>
+          </article>
+          <article>
+            <strong>1 formularz</strong>
+            <span>do dodania zdjęcia, opisu i ceny</span>
+          </article>
+          <article>
+            <strong>1 zdjęcie</strong>
+            <span>wystarczy na prosty start z ofertą</span>
+          </article>
+          <article>
+            <strong>Telefon i e-mail</strong>
+            <span>gotowe do szybkiego kontaktu z klientem</span>
+          </article>
+        </section>
+
+        <section class="offer-section" id="oferta">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Katalog ofert</p>
+              <h2>Wasze maszyny w jednym prostym katalogu</h2>
+            </div>
+            <p>
+              Każda oferta pokazuje zdjęcie, nazwę, cenę i najważniejsze dane.
+              Dzięki temu klient szybko widzi, co sprzedajecie i może od razu
+              zapytać o konkretny model.
+            </p>
+          </div>
+
+          <div class="filter-bar" id="filterBar" aria-label="Filtry kategorii">
+            <button class="filter-chip is-active" data-filter="all">
+              Wszystkie
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page1.html#gallery1-n">Sprzedaż</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.html#contacts3-l">Kontakt</a></li></ul>
-                
-                
+            <button class="filter-chip" data-filter="Ciągniki">Ciągniki</button>
+            <button class="filter-chip" data-filter="Ładowarki">
+              Ładowarki
+            </button>
+            <button class="filter-chip" data-filter="Prasy">Prasy</button>
+            <button class="filter-chip" data-filter="Opryskiwacze">
+              Opryskiwacze
+            </button>
+          </div>
+
+          <div class="machines-grid" id="machinesGrid"></div>
+        </section>
+
+        <section class="manage-section" id="dodaj-maszyne">
+          <div class="contact-card manage-card">
+            <div class="contact-copy manage-copy">
+              <p class="eyebrow">Dodaj ofertę</p>
+              <h2>Prosty formularz, z którym poradzi sobie też osoba bez wiedzy IT</h2>
+              <p>
+                To ma być wygodne narzędzie dla Was obu. Najpierw wybieracie
+                zdjęcie z telefonu albo komputera, potem dopisujecie opis,
+                cenę i podstawowe informacje. Po kliknięciu oferta pojawia się
+                od razu w katalogu.
+              </p>
+
+              <ul class="manage-points">
+                <li>Wybierz jedno wyraźne zdjęcie maszyny.</li>
+                <li>Uzupełnij nazwę, rok, cenę i krótki opis.</li>
+                <li>
+                  Kliknij „Dodaj ofertę”, a maszyna od razu pokaże się na stronie.
+                </li>
+              </ul>
             </div>
-        </div>
-    </nav>
 
-</section>
+            <form class="contact-form machine-manager-form" id="addMachineForm">
+              <label class="upload-field">
+                Główne zdjęcie maszyny
+                <input
+                  type="file"
+                  id="newMachineImage"
+                  name="newMachineImage"
+                  accept="image/*"
+                />
+              </label>
 
-<section data-bs-version="5.1" class="header1 cid-s48MCQYojq mbr-fullscreen mbr-parallax-background" id="header1-f">
+              <div class="image-preview-card">
+                <img
+                  id="imagePreview"
+                  src=""
+                  alt="Podgląd zdjęcia dodawanej maszyny"
+                />
+                <p class="form-note" id="imagePreviewNote">
+                  Najlepiej dodać jedno wyraźne zdjęcie z boku lub z przodu.
+                </p>
+              </div>
 
-    
+              <div class="machine-form-grid">
+                <label>
+                  Kategoria
+                  <select id="newMachineType" name="newMachineType" required>
+                    <option value="Ciągniki">Ciągniki</option>
+                    <option value="Ładowarki">Ładowarki</option>
+                    <option value="Prasy">Prasy</option>
+                    <option value="Opryskiwacze">Opryskiwacze</option>
+                  </select>
+                </label>
 
-    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(255, 255, 255);"></div>
+                <label>
+                  Stan
+                  <select
+                    id="newMachineCondition"
+                    name="newMachineCondition"
+                    required
+                  >
+                    <option value="Nowa">Nowa</option>
+                    <option value="Używana">Używana</option>
+                  </select>
+                </label>
 
-    <div class="align-center container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-7">
-                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Tu będzie coś mądrego, ale i tak wygląda luksusowo...</strong></h1>
-                
-                <p class="mbr-text mbr-fonts-style display-7">Prawda?</p>
-                
+                <label>
+                  Nazwa maszyny
+                  <input
+                    type="text"
+                    id="newMachineName"
+                    name="newMachineName"
+                    placeholder="Np. Deutz-Fahr 6215"
+                    required
+                  />
+                </label>
+
+                <label>
+                  Rok
+                  <input
+                    type="text"
+                    id="newMachineYear"
+                    name="newMachineYear"
+                    placeholder="Np. 2023"
+                    required
+                  />
+                </label>
+
+                <label>
+                  Moc / parametr
+                  <input
+                    type="text"
+                    id="newMachinePower"
+                    name="newMachinePower"
+                    placeholder="Np. 215 KM"
+                    required
+                  />
+                </label>
+
+                <label>
+                  Przebieg / licznik
+                  <input
+                    type="text"
+                    id="newMachineHours"
+                    name="newMachineHours"
+                    placeholder="Np. 1 240 mth"
+                    required
+                  />
+                </label>
+
+                <label>
+                  Lokalizacja
+                  <input
+                    type="text"
+                    id="newMachineLocation"
+                    name="newMachineLocation"
+                    placeholder="Np. Mazowieckie"
+                    required
+                  />
+                </label>
+
+                <label>
+                  Cena
+                  <input
+                    type="text"
+                    id="newMachinePrice"
+                    name="newMachinePrice"
+                    placeholder="Np. 365 000 PLN"
+                    required
+                  />
+                </label>
+              </div>
+
+              <label>
+                Opis oferty
+                <textarea
+                  id="newMachineDescription"
+                  name="newMachineDescription"
+                  rows="5"
+                  placeholder="Np. Maszyna zadbana, gotowa do pracy, po serwisie, możliwy transport."
+                  required
+                ></textarea>
+              </label>
+
+              <div class="manager-toolbar">
+                <button type="submit" class="button button-primary">
+                  Dodaj ofertę
+                </button>
+                <button
+                  type="button"
+                  class="button button-secondary"
+                  id="resetMachinesButton"
+                >
+                  Wyczyść do przykładu
+                </button>
+              </div>
+
+              <p class="form-note" id="addMachineNote" role="status">
+                Na początek oferty zapisują się na tym urządzeniu i w tej przeglądarce.
+              </p>
+            </form>
+          </div>
+        </section>
+
+        <section class="value-section" id="dlaczego-my">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Dlaczego to proste</p>
+              <h2>Strona przygotowana pod Waszą codzienną, praktyczną obsługę</h2>
             </div>
-        </div>
+            <p>
+              Nie chodzi o skomplikowany system, tylko o wygodny start. Wszystko
+              zostało ułożone tak, żeby szybciej wystawiać maszyny i łatwiej
+              rozmawiać z klientami.
+            </p>
+          </div>
+
+          <div class="value-grid">
+            <article class="value-card">
+              <span>01</span>
+              <h3>Prosty formularz</h3>
+              <p>
+                Pola są opisane zwykłym językiem, więc dodanie oferty nie wymaga
+                znajomości paneli administracyjnych.
+              </p>
+            </article>
+            <article class="value-card">
+              <span>02</span>
+              <h3>Zdjęcie i opis od razu na stronie</h3>
+              <p>
+                Po zapisaniu oferta pojawia się od razu w katalogu, więc można
+                szybko sprawdzić, jak wygląda dla klienta.
+              </p>
+            </article>
+            <article class="value-card">
+              <span>03</span>
+              <h3>Dobry start pod dalszą rozbudowę</h3>
+              <p>
+                Kiedy będziecie gotowi, można dołożyć stały zapis, panel admina,
+                galerie zdjęć i prawdziwy hosting.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="process-section" id="proces">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Jak korzystać</p>
+              <h2>Najprostszy sposób pracy z tą stroną na co dzień</h2>
+            </div>
+            <p>
+              Jeśli chcesz, żeby tata szybko to załapał, najlepiej trzymać się
+              zawsze tych samych czterech kroków.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-step">
+              <strong>1</strong>
+              <h3>Zrób zdjęcie</h3>
+              <p>
+                Jedno dobre zdjęcie z telefonu w zupełności wystarczy na start.
+              </p>
+            </article>
+            <article class="timeline-step">
+              <strong>2</strong>
+              <h3>Uzupełnij dane</h3>
+              <p>
+                Wpisz nazwę maszyny, cenę, rok i krótki opis w prostym formularzu.
+              </p>
+            </article>
+            <article class="timeline-step">
+              <strong>3</strong>
+              <h3>Sprawdź ofertę</h3>
+              <p>
+                Po dodaniu zobaczysz od razu, jak maszyna wygląda w katalogu.
+              </p>
+            </article>
+            <article class="timeline-step">
+              <strong>4</strong>
+              <h3>Odbierz kontakt</h3>
+              <p>
+                Klient wybiera ofertę i wysyła wiadomość albo dzwoni do Was.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="contact-section" id="kontakt">
+          <div class="contact-card">
+            <div class="contact-copy">
+              <p class="eyebrow">Kontakt</p>
+              <h2>Klient może szybko zapytać o konkretną maszynę</h2>
+              <p>
+                Formularz jest prosty i praktyczny. Po kliknięciu przygotuje się
+                wiadomość e-mail z nazwą wybranej maszyny, żeby rozmowa od razu
+                zaczęła się od konkretu.
+              </p>
+
+              <div class="contact-details">
+                <a href="tel:+48600000000">+48 600 000 000</a>
+                <a href="mailto:sprzedaz@twojadomena.pl"
+                  >sprzedaz@twojadomena.pl</a
+                >
+                <span>Pon. - Sob. | 08:00 - 18:00</span>
+              </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+              <label>
+                Imię i nazwisko
+                <input
+                  type="text"
+                  id="customerName"
+                  name="customerName"
+                  placeholder="Np. Jan Kowalski"
+                  required
+                />
+              </label>
+
+              <label>
+                Telefon
+                <input
+                  type="tel"
+                  id="customerPhone"
+                  name="customerPhone"
+                  placeholder="Np. 600 700 800"
+                  required
+                />
+              </label>
+
+              <label>
+                Wybrana maszyna
+                <input
+                  type="text"
+                  id="machineName"
+                  name="machineName"
+                  placeholder="Np. John Deere 6155M"
+                  required
+                />
+              </label>
+
+              <label>
+                Wiadomość
+                <textarea
+                  id="customerMessage"
+                  name="customerMessage"
+                  rows="5"
+                  placeholder="Napisz, czy interesuje Cię zakup, leasing, transport lub oględziny."
+                ></textarea>
+              </label>
+
+              <button type="submit" class="button button-primary">
+                Przygotuj wiadomość
+              </button>
+              <p class="form-note" id="formNote">
+                Na następnym etapie mogę też podłączyć tu prawdziwy formularz
+                kontaktowy z trwałym zapisem wiadomości.
+              </p>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>Rodzinna Sprzedaż Maszyn</p>
+        <span>Prosty start dla rodzinnego katalogu maszyn rolniczych.</span>
+      </footer>
     </div>
-</section>
 
-<section data-bs-version="5.1" class="contacts3 map1 cid-tC4NumCEbl" id="contacts3-l">
-
-    
-
-    
-    
-    <div class="container-fluid">
-        <div class="mbr-section-head">
-            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                <strong>Kontakt</strong></h3>
-            
+    <template id="machineCardTemplate">
+      <article class="machine-card">
+        <div class="machine-media">
+          <img class="machine-image" src="" alt="Zdjęcie maszyny" loading="lazy" />
         </div>
-        <div class="row justify-content-center mt-4">
-            <div class="card col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="image-wrapper">
-                        <span class="mbr-iconfont mobi-mbri-globe mobi-mbri"></span>
-                    </div>
-                    <div class="text-wrapper">
-                        <h6 class="card-title mbr-fonts-style mb-1 display-2"><strong>Telefon</strong></h6>
-                        <p class="mbr-text mbr-fonts-style display-7"><a href="tel:+48511606909" class="text-primary">+48 511 606 909</a></p>
-                    </div>
-                </div>
-                <div class="card-wrapper">
-                    <div class="image-wrapper">
-                        <span class="mbr-iconfont mobi-mbri-globe mobi-mbri"></span>
-                    </div>
-                    <div class="text-wrapper">
-                        <h6 class="card-title mbr-fonts-style mb-1 display-5">
-                            <strong>Email</strong>
-                        </h6>
-                        <p class="mbr-text mbr-fonts-style display-7"><a href="mailto:lukaszkrukowski@o2.pl" class="text-primary">lukaszkrukowski@o2.pl</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="map-wrapper col-12 col-md-6">
-                <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCNveGQ9bfpKFwWzQLLftrR9hNiHwdqQG8&amp;q=27-300 Wiśniówek" allowfullscreen=""></iframe></div>
-            </div>
+        <div class="machine-card-top">
+          <span class="machine-type"></span>
+          <span class="machine-condition"></span>
         </div>
-    </div>
-</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/3002604" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">Created with &#8204;</p><a style="z-index:1" href="https://mobirise.com/builder/landing-page-builder.html">Landing Page Builder</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-core.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-script.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
-  
-  
-<input name="cookieData" type="hidden" data-cookie-cookiesAlertType='false' data-cookie-customDialogSelector='null' data-cookie-colorText='#424a4d' data-cookie-colorBg='rgb(255, 255, 255)' data-cookie-opacityOverlay='0' data-cookie-bgOpacity='100' data-cookie-textButton='GOT IT' data-cookie-rejectText='REJECT' data-cookie-colorButton='' data-cookie-rejectColor='' data-cookie-colorLink='#424a4d' data-cookie-underlineLink='true' data-cookie-text="We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.">
-   <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
-    <input name="animation" type="hidden">
+        <h3 class="machine-name"></h3>
+        <p class="machine-description"></p>
+        <div class="machine-meta"></div>
+        <div class="machine-bottom">
+          <strong class="machine-price"></strong>
+          <button class="button button-tertiary machine-button" type="button">
+            Zapytaj
+          </button>
+        </div>
+      </article>
+    </template>
+
+    <script src="script.js"></script>
   </body>
 </html>
